@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hamburger-button{
+  position: relative;
+  transition: .3s ease-in-out;
+  width:45;
+  height: 35px;
+}
+
+.hamburger-button span{
+  position: absolute;
+  height: 8px;
+  border-radius: 4px;
+  width:100%;
+  background: #3d4146;
+  top:0;
+}
